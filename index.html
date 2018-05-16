@@ -13,23 +13,23 @@
             /*add a padding to the body*/
 			padding: 10px;}
         
-         @media only screen and (max-width: 300px) {
+         @media only screen and (min-width: 0px) {
              .container{
                 background-color: #FFE4C4;
                 display: grid;
-                             /*divide the grid into 2 columns in a device of 992px*/
-			 	grid-template-columns: 1fr;
-         		grid-gap:1em;
+                /*divide the grid into 2 columns in a device of 992px*/
+		grid-template-columns: 1fr;
+         	grid-gap:1em;
              }
             
             .responsive {
-				width:100%;
+		width:100%;
                 height: "400";
             }
         }
         
        /* tablet/desktop */
-         @media only screen and (min-width: 992px) {
+         @media only screen and (min-width: 500px) {
              .container{
                 background-color: #FFE4C4;
                 display: grid;
